@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, Button, ImageBackground, StyleSheet } from 'react-native';
+import { Text, View, Button, ImageBackground, StyleSheet, TouchableOpacity } from 'react-native';
 
 const HomeScreen = ({ navigation }) => {
     return (
@@ -10,7 +10,7 @@ const HomeScreen = ({ navigation }) => {
                     <Text style={styles.title}>Blessing Showroom</Text>
                     <Button
                          title="Buka Katalog Mobil"
-                         color='black'
+                         color='#24252a'
                          onPress={() => navigation.navigate('KatalogMobil')}
                          
                     />
@@ -18,11 +18,13 @@ const HomeScreen = ({ navigation }) => {
 
                     <Button
                          title="Buka Katalog Motor"
-                         color='black'
+                         color='#24252a'
+                         
                          onPress={() => navigation.navigate('KatalogMotor')}
                     />
                     
                </View>
+               
           </View>
        </ImageBackground>
     );
@@ -35,6 +37,7 @@ const styles = StyleSheet.create({
           textAlign: 'center',
           color: 'white',
           fontSize: 30,
+          fontWeight: 'bold',
           paddingTop: -1,
           marginVertical: 15
      },
