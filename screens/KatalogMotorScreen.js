@@ -3,36 +3,51 @@ import { Text, View, Image, ImageBackground, StyleSheet } from 'react-native';
 import ImageDetail from '../components/ImageDetail';
 import { ScrollView } from 'react-native-gesture-handler';
 
-const KatalogMobil = () => {
+const KatalogMotor = () => {
     return (
         <ScrollView>
         <View style={styles.container}>
             <ImageDetail 
-                title="Ferrari"
-                price="Rp.1200"
-                imageSource={require('../assets/ferrari.jpg')}
+                title="Kawasaki Ninja 250"
+                price="Rp. 52.000.000"
+                imageSource={require('../assets/ninja250.jpg')}
             />
             <ImageDetail 
-                title="Pagani"
-                price="Rp.1500"
-                imageSource={require('../assets/pagani.jpg')}
+                title="CBR 250RR"
+                price="Rp.58.000.000"
+                imageSource={require('../assets/cbr250rr.jpg')}
             />
             <ImageDetail
-                title="Lamborghini"
-                price="Rp.1000"
-                imageSource={require('../assets/lamborghini.jpg')}
+                title="Yamaha R25"
+                price="Rp.54.000.000"
+                imageSource={require('../assets/r25.jpg')}
             />
             <ImageDetail
-                title="Buggati"
-                price="Rp.2000"
-                imageSource={require('../assets/buggati.jpg')}
+                title="Yamaha NMAX ABS"
+                price="Rp.31.000.000"
+                imageSource={require('../assets/nmax.jpg')}
             />
+            <ImageDetail
+                title="Yamaha Aerox ABS"
+                price="Rp.30.000.000"
+                imageSource={require('../assets/aerox.jpg')}
+            />
+            <ImageDetail
+                title="Ducati Panigale"
+                price="Rp.345.000.000"
+                imageSource={require('../assets/ducatipanigale.jpg')}
+            />
+            <ImageDetail
+                title="Kawasaki ZX6R"
+                price="Rp.325.000.000"
+                imageSource={require('../assets/zx6r.jpg')}
+            />             
         </View>
         </ScrollView>
     )
 };
 
-export default KatalogMobil;
+export default KatalogMotor;
 
 const styles = StyleSheet.create({
     container: {
