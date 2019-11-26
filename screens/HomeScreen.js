@@ -7,7 +7,7 @@ const HomeScreen = ({ navigation }) => {
           <View style={styles.container}>
                
                <View style={styles.center,styles.BG}>
-                    <Text style={styles.title}>Blessing Showroom</Text>
+                    <Text style={styles.title}>Prestige Showroom</Text>
                     <Button
                          title="Buka Katalog Mobil"
                          color='#24252a'
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
 
      BG: {
           width: '90%',
-          height: '40%',
+          height: '35%',
           paddingLeft: 20,
           paddingRight: 20,
           backgroundColor: 'rgba(0, 0 ,0, .5)'
