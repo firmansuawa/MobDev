@@ -5,10 +5,11 @@ const ImageDetail = ({imageSource, title, price}) => {
     return(
         <View>
             <Image 
-                style={{width: 225, height: 200}}
+                style={{width: 327, height: 230, flex: 1, alignItems: 'center'}}
                 source={imageSource}
             />
-            <Text style={{textAlign: 'center', marginBottom: 20}}>{title}   {price}</Text>
+            <Text style={{marginBottom: 2, fontSize: 18, fontWeight: 'bold'}}>{title}</Text>
+            <Text style={{marginBottom: 15, fontSize: 15}}>{price}</Text>
         </View>
     )
 };
