@@ -15,7 +15,7 @@ const navigator = createStackNavigator({
 },{
   initialRouteName: 'Home',
   defaultNavigationOptions: {
-    headerTitle: 'Final Project',
+    headerTitle: 'Final Project: Katalog',
     headerStyle: {
       backgroundColor: '#24252a'
     },

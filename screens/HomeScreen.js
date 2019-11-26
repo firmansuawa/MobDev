@@ -7,9 +7,9 @@ const HomeScreen = ({ navigation }) => {
           <View style={styles.container}>
                
                <View style={styles.center,styles.BG}>
-                    <Text style={styles.title}>Prestige Showroom</Text>
+                    <Text style={styles.title}>Prestige Motorcars</Text>
                     <Button
-                         title="Buka Katalog Mobil"
+                         title="Katalog Mobil"
                          color='#24252a'
                          onPress={() => navigation.navigate('KatalogMobil')}
                          
@@ -17,7 +17,7 @@ const HomeScreen = ({ navigation }) => {
                     <Text>-</Text>
 
                     <Button
-                         title="Buka Katalog Motor"
+                         title="Katalog Motor"
                          color='#24252a'
                          onPress={() => navigation.navigate('KatalogMotor')}
                     />
