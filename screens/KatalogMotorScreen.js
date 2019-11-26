@@ -5,6 +5,7 @@ import { ScrollView } from 'react-native-gesture-handler';
 
 const KatalogMotor = () => {
     return (
+ master
         <ImageBackground source={require('../assets/bgmobil.jpg')} style={{ width: '100%', height: '100%' }}>
             <ScrollView>
                 <View>
