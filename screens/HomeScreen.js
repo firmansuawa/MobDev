@@ -19,10 +19,15 @@ const HomeScreen = ({ navigation }) => {
                     <Button
                          title="Buka Katalog Motor"
                          color='#24252a'
-                         
                          onPress={() => navigation.navigate('KatalogMotor')}
                     />
-                    
+                    <Text>-</Text>
+
+                    <Button
+                         title="Lokasi Showroom"
+                         color='#24252a'
+                         onPress={() => navigation.navigate('Lokasi')}
+                    />
                </View>
                
           </View>
@@ -55,7 +60,7 @@ const styles = StyleSheet.create({
 
      BG: {
           width: '90%',
-          height: '27%',
+          height: '40%',
           paddingLeft: 20,
           paddingRight: 20,
           backgroundColor: 'rgba(0, 0 ,0, .5)'

@@ -5,11 +5,13 @@ import { StyleSheet, Text, View } from 'react-native';
 import HomeScreen from './screens/HomeScreen';
 import KatalogMobilScreen from './screens/KatalogMobilScreen';
 import KatalogMotorScreen from './screens/KatalogMotorScreen';
+import LokasiScreen from './screens/LokasiScreen';
 
 const navigator = createStackNavigator({
   Home: HomeScreen,
   KatalogMobil: KatalogMobilScreen,
-  KatalogMotor: KatalogMotorScreen
+  KatalogMotor: KatalogMotorScreen,
+  Lokasi: LokasiScreen,
 },{
   initialRouteName: 'Home',
   defaultNavigationOptions: {
